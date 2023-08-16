@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+    <link href="~/Content/login.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body style="background-image:url('/Images/gamerBackround.jfif');">
+    <h1 style="color: rgba(129, 21, 141, 1);">Game Trade Topia</h1>
+    <div class="Navigation"></div>
+        <div class="con">
+            @RenderBody()
+        </div>
+</body>
+</html>

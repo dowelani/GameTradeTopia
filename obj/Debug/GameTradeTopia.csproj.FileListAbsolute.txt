@@ -1,0 +1,330 @@
+G:\GameTradeTopia\bin\GameTradeTopia.dll.config
+G:\GameTradeTopia\bin\GameTradeTopia.dll
+G:\GameTradeTopia\bin\GameTradeTopia.pdb
+G:\GameTradeTopia\bin\roslyn\csc.exe
+G:\GameTradeTopia\bin\roslyn\csc.exe.config
+G:\GameTradeTopia\bin\roslyn\csc.rsp
+G:\GameTradeTopia\bin\roslyn\csi.exe
+G:\GameTradeTopia\bin\roslyn\csi.exe.config
+G:\GameTradeTopia\bin\roslyn\csi.rsp
+G:\GameTradeTopia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\GameTradeTopia\bin\roslyn\Microsoft.Managed.Core.targets
+G:\GameTradeTopia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\GameTradeTopia\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\GameTradeTopia\bin\roslyn\System.AppContext.dll
+G:\GameTradeTopia\bin\roslyn\System.Collections.Immutable.dll
+G:\GameTradeTopia\bin\roslyn\System.Console.dll
+G:\GameTradeTopia\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\GameTradeTopia\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\GameTradeTopia\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\GameTradeTopia\bin\roslyn\System.Globalization.Calendars.dll
+G:\GameTradeTopia\bin\roslyn\System.IO.Compression.dll
+G:\GameTradeTopia\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\GameTradeTopia\bin\roslyn\System.IO.FileSystem.dll
+G:\GameTradeTopia\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\GameTradeTopia\bin\roslyn\System.Net.Http.dll
+G:\GameTradeTopia\bin\roslyn\System.Net.Sockets.dll
+G:\GameTradeTopia\bin\roslyn\System.Reflection.Metadata.dll
+G:\GameTradeTopia\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\GameTradeTopia\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\GameTradeTopia\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\GameTradeTopia\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\GameTradeTopia\bin\roslyn\System.ValueTuple.dll
+G:\GameTradeTopia\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\GameTradeTopia\bin\roslyn\System.Xml.XmlDocument.dll
+G:\GameTradeTopia\bin\roslyn\System.Xml.XPath.dll
+G:\GameTradeTopia\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\GameTradeTopia\bin\roslyn\vbc.exe
+G:\GameTradeTopia\bin\roslyn\vbc.exe.config
+G:\GameTradeTopia\bin\roslyn\vbc.rsp
+G:\GameTradeTopia\bin\roslyn\VBCSCompiler.exe
+G:\GameTradeTopia\bin\roslyn\VBCSCompiler.exe.config
+G:\GameTradeTopia\bin\Antlr3.Runtime.dll
+G:\GameTradeTopia\bin\EntityFramework.dll
+G:\GameTradeTopia\bin\EntityFramework.SqlServer.dll
+G:\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\GameTradeTopia\bin\Microsoft.Web.Infrastructure.dll
+G:\GameTradeTopia\bin\Newtonsoft.Json.dll
+G:\GameTradeTopia\bin\System.Web.Helpers.dll
+G:\GameTradeTopia\bin\System.Web.Mvc.dll
+G:\GameTradeTopia\bin\System.Web.Optimization.dll
+G:\GameTradeTopia\bin\System.Web.Razor.dll
+G:\GameTradeTopia\bin\System.Web.WebPages.Deployment.dll
+G:\GameTradeTopia\bin\System.Web.WebPages.dll
+G:\GameTradeTopia\bin\System.Web.WebPages.Razor.dll
+G:\GameTradeTopia\bin\WebGrease.dll
+G:\GameTradeTopia\bin\EntityFramework.xml
+G:\GameTradeTopia\bin\EntityFramework.SqlServer.xml
+G:\GameTradeTopia\bin\System.Web.Helpers.xml
+G:\GameTradeTopia\bin\System.Web.Mvc.xml
+G:\GameTradeTopia\bin\System.Web.Optimization.xml
+G:\GameTradeTopia\bin\System.Web.Razor.xml
+G:\GameTradeTopia\bin\System.Web.WebPages.xml
+G:\GameTradeTopia\bin\System.Web.WebPages.Deployment.xml
+G:\GameTradeTopia\bin\System.Web.WebPages.Razor.xml
+G:\GameTradeTopia\bin\Newtonsoft.Json.xml
+G:\GameTradeTopia\bin\Antlr3.Runtime.pdb
+G:\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\GameTradeTopia\obj\Debug\GameTradeTopia.csprojAssemblyReference.cache
+G:\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CopyComplete
+G:\GameTradeTopia\obj\Debug\GameTradeTopia.dll
+G:\GameTradeTopia\obj\Debug\GameTradeTopia.pdb
+C:\Users\User\VS\GameTradeTopia\bin\GameTradeTopia.dll.config
+C:\Users\User\VS\GameTradeTopia\bin\GameTradeTopia.dll
+C:\Users\User\VS\GameTradeTopia\bin\GameTradeTopia.pdb
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csc.exe
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csc.exe.config
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csc.rsp
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csi.exe
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csi.exe.config
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\csi.rsp
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.AppContext.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Console.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Net.Http.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\vbc.exe
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\vbc.exe.config
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\vbc.rsp
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\VS\GameTradeTopia\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\VS\GameTradeTopia\bin\Antlr3.Runtime.dll
+C:\Users\User\VS\GameTradeTopia\bin\EntityFramework.dll
+C:\Users\User\VS\GameTradeTopia\bin\EntityFramework.SqlServer.dll
+C:\Users\User\VS\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\VS\GameTradeTopia\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\VS\GameTradeTopia\bin\Newtonsoft.Json.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Helpers.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Mvc.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Optimization.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Razor.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.dll
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\VS\GameTradeTopia\bin\WebGrease.dll
+C:\Users\User\VS\GameTradeTopia\bin\EntityFramework.xml
+C:\Users\User\VS\GameTradeTopia\bin\EntityFramework.SqlServer.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Helpers.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Mvc.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Optimization.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.Razor.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\VS\GameTradeTopia\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\VS\GameTradeTopia\bin\Newtonsoft.Json.xml
+C:\Users\User\VS\GameTradeTopia\bin\Antlr3.Runtime.pdb
+C:\Users\User\VS\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\VS\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.AssemblyReference.cache
+C:\Users\User\VS\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CoreCompileInputs.cache
+C:\Users\User\VS\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CopyComplete
+C:\Users\User\VS\GameTradeTopia\obj\Debug\GameTradeTopia.dll
+C:\Users\User\VS\GameTradeTopia\obj\Debug\GameTradeTopia.pdb
+C:\Users\User\VS\New folder\GameTradeTopia\bin\GameTradeTopia.dll.config
+C:\Users\User\VS\New folder\GameTradeTopia\bin\GameTradeTopia.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\GameTradeTopia.pdb
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csc.exe
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csc.exe.config
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csc.rsp
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csi.exe
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csi.exe.config
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\csi.rsp
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.AppContext.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Console.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Net.Http.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\vbc.exe
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\vbc.exe.config
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\vbc.rsp
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\VS\New folder\GameTradeTopia\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Antlr3.Runtime.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\EntityFramework.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\EntityFramework.SqlServer.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Newtonsoft.Json.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Helpers.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Mvc.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Optimization.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Razor.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\WebGrease.dll
+C:\Users\User\VS\New folder\GameTradeTopia\bin\EntityFramework.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\EntityFramework.SqlServer.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Helpers.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Mvc.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Optimization.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.Razor.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Newtonsoft.Json.xml
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Antlr3.Runtime.pdb
+C:\Users\User\VS\New folder\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\VS\New folder\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.AssemblyReference.cache
+C:\Users\User\VS\New folder\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CoreCompileInputs.cache
+C:\Users\User\VS\New folder\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CopyComplete
+C:\Users\User\VS\New folder\GameTradeTopia\obj\Debug\GameTradeTopia.dll
+C:\Users\User\VS\New folder\GameTradeTopia\obj\Debug\GameTradeTopia.pdb
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\GameTradeTopia.dll.config
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\GameTradeTopia.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\GameTradeTopia.pdb
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csc.exe
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csc.exe.config
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csc.rsp
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csi.exe
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csi.exe.config
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\csi.rsp
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.AppContext.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Console.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.IO.Compression.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Net.Http.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Net.Sockets.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.ValueTuple.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Xml.XPath.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\vbc.exe
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\vbc.exe.config
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\vbc.rsp
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\VBCSCompiler.exe
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Antlr3.Runtime.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\EntityFramework.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\EntityFramework.SqlServer.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Newtonsoft.Json.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Helpers.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Mvc.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Optimization.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Razor.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.Deployment.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.Razor.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\WebGrease.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\EntityFramework.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\EntityFramework.SqlServer.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Helpers.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Mvc.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Optimization.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.Razor.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.Deployment.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\System.Web.WebPages.Razor.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Newtonsoft.Json.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Antlr3.Runtime.pdb
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\obj\Debug\GameTradeTopia.csprojAssemblyReference.cache
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\obj\Debug\GameTradeTopia.csproj.CopyComplete
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\obj\Debug\GameTradeTopia.dll
+C:\Users\khumbelo\Downloads\GameTradeTopia\GameTradeTopia\obj\Debug\GameTradeTopia.pdb

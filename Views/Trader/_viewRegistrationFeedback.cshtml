@@ -1,0 +1,14 @@
+﻿@model GameTradeTopia.Models.Trader
+
+<div id="approved" >
+    
+    @{      if (Model.approved.Equals("no"))
+            {
+             <h2 style="color:rgba(129, 21, 141, 1) ">Your registration is not approved!!</h2>
+            }
+            else
+            {
+             <h2 style="color:rgba(129, 21, 141, 1)">Registration approved</h2>
+            }
+    }
+</div>

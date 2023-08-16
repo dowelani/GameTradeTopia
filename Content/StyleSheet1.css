@@ -1,0 +1,33 @@
+﻿.con {
+    background: #E29EDA;
+
+}
+.Navigation {
+    overflow: hidden;
+    background: rgba(129, 21, 141, 1);
+    height:70px;
+  
+}
+.Navigation a {
+    float: left;
+    padding-right:20px;
+    padding-top:20px;
+}
+.Navigation .NavigationRight {
+    float: right;
+    display:inline;
+}
+.Navigation .NavigationRight a{
+    padding-top:0px;
+}
+.item {
+    color: rgba(61, 247, 6, 1);
+    font-size: 22px;
+}
+h1 {
+    color: rgba(61, 247, 6, 1);
+}
+#seearchBox {
+    height:24px;
+}
+

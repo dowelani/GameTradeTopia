@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/login.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+
+</head>
+<body style="background-image:url('/Images/gamerBackround.jfif');">
+    <h1 style="color: rgba(129, 21, 141, 1);">Game Trade Topia</h1>
+
+    <div class="Navigation">
+
+        <div class="NavigationRight">
+            <a href="@Url.Action("register","Trader")">
+                <input type="button" value="Register" style="border-radius: 45px; width: 100px; background: rgba(61, 247, 6, 1); color: rgba(129, 21, 141, 1); height: 55px"  />
+            </a>
+        </div>
+    </div>
+
+    <div class="con">
+        @RenderBody()
+    </div>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

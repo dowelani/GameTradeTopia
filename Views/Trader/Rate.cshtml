@@ -1,0 +1,131 @@
+﻿@model IEnumerable<GameTradeTopia.Models.Game>
+@{
+    ViewBag.Title = "Rate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+
+    IEnumerable<GameTradeTopia.Models.Trader> trader = ViewData["trader"] as IEnumerable<GameTradeTopia.Models.Trader>;
+    IEnumerable<GameTradeTopia.Models.traderRating> rating = ViewData["rating"] as IEnumerable<GameTradeTopia.Models.traderRating>;
+    int id = (int)ViewData["dataID"];
+    if (TempData["id"] != null)
+    {
+        TempData.Remove("id");
+    }
+    TempData["id"] = id;
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+}
+<div>
+    @foreach (var item in trader)
+    {
+        if (item.traderID == id)
+        {
+            <div style="display: flex; flex-direction: row; padding-top: 20px; flex: 100%;justify-content:space-between; width: 50%">
+                <img src="~/images/user.png" alt="Avator" style=" border-radius: 50%; width: 55px; height: 55px; " />
+                <div style="display: flex; flex-direction: column;">
+                    <p style=" font-size: large; padding-top: 5px; color: rgba(129, 21, 141, 1);">@item.username</p>
+                    <div>
+                        @foreach (var item1 in rating)
+                        {
+                            if (item.traderID == item1.traderID)
+                            {
+                                if (item1.traderStars == 1)
+                                {
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+
+                                }
+                                else if (item1.traderStars == 2)
+                                {
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                }
+                                else if (item1.traderStars == 3)
+                                {
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                }
+                                else if (item1.traderStars == 4)
+                                {
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                }
+                                else if (item1.traderStars == 5)
+                                {
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                }
+                                else if (item1.traderStars == 0)
+                                {
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                    <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+
+                                }
+                            }
+                        }
+                    </div>
+                </div>
+
+                @using (Html.BeginForm("rate", "Trader", FormMethod.Post))
+                {
+                    <input type="submit" class="btn" value="Rate Trader" style="border-radius: 45px; width: 100px; background: rgba(61, 247, 6, 1); height: 55px; color: rgba(129, 21, 141, 1); float:left; " />
+                    <select class="form-control" id="rate" name="rate" style="width:200px">
+                        <option selected disabled>select rate</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                }
+            </div>
+        }
+    }
+</div>
+<div style="display:flex;flex-direction:row; padding-right:20px">
+    <input type="submit" class="btn" value="Trade Request" style="border-radius: 45px;  background: rgba(61, 247, 6, 1); height: 55px; color: rgba(129, 21, 141, 1);  " />
+    <input type="submit" class="btn" value="Generate Trade Report" style="border-radius: 45px; background: rgba(61, 247, 6, 1); height: 55px; color: rgba(129, 21, 141, 1);  " />
+</div>
+
+    <h2 style="color:rgba(129, 21, 141, 1)"> Available Games</h2>
+    <div id="home-body">
+        <section id="all-games">
+            @foreach (var item in Model)
+            {
+                <section class="game-container" style="display:flex;flex-direction:row">
+                    <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    <div style="display:flex;flex-direction:column">
+                        <h2>Name  :@item.gameName</h2>
+                        <h2>Theme :@item.gameType</h2>
+                        <h2>Year Published  :@item.yearPublished</h2>
+                        <h2>GameID :@item.gameID</h2>
+                        
+                    </div>
+                </section>
+            }
+        </section>
+
+    </div>
+    @section styles{
+        <link rel="stylesheet" href="~/Content/Home.css" type="text/css" />
+    }

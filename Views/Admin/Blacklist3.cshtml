@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Blacklist3";
+    Layout = "~/Views/Shared/adminLayout.cshtml";
+}
+
+
+@{
+    IEnumerable<GameTradeTopia.Models.traderRating> rating = ViewData["rating"] as IEnumerable<GameTradeTopia.Models.traderRating>;
+
+    IEnumerable<GameTradeTopia.Models.Trader> trader = ViewData["trader"] as IEnumerable<GameTradeTopia.Models.Trader>;
+
+}
+<div style="font-size:medium">
+    <input type="radio" name="filter" id="all"  />
+    <label for="all" style="font-size: medium; color: rgba(129, 21, 141, 1)">All</label>
+
+    <input type="radio" name="filter" id="three" checked/>
+    <label for="three" style="font-size: medium; color: rgba(129, 21, 141, 1)">3-star rated traders</label>
+
+    <input type="radio" name="filter" id="five" />
+    <label for="five" style="font-size: medium; color: rgba(129, 21, 141, 1)">5-day limit exceeders</label>
+
+    <input type="radio" name="filter" id="other" />
+    <label for="other" style="font-size:medium; color: rgba(129, 21, 141, 1)">Other Trade Policy Violators</label>
+</div>
+<div>
+    @foreach (var item in trader)
+    {
+        @foreach (var item1 in rating)
+        {
+            if (item.blacklisted.Equals("no")&& item.traderID == item1.traderID&&item1.traderStars==3)
+            {
+                <div style="display: flex; flex-direction: row; padding-top: 20px; justify-content: space-between; width: 50%">
+                    <img src="~/images/user.png" alt="Avator" style=" border-radius: 50%; width: 55px; height: 55px; " />
+                    <p style=" padding-top: 18px; font-size: large; color: rgba(129, 21, 141, 1); ">@item.username</p>
+                    <a href="@Url.Action("blacklisted", "Admin", new { id = item.traderID })">
+                        <input type="button" value="Blacklist" style="border-radius: 45px; width: 100px; background: rgba(61, 247, 6, 1); color: rgba(129, 21, 141, 1); height: 55px " />
+                    </a>
+                </div>
+                }
+            }
+      }
+    </div>
+
+

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<GameTradeTopia.Models.Game>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+<div id="home-body">
+
+    <fieldset id="game-category" >
+        <legend>Category</legend> 
+        <div class="radio-block"> <label><input type="radio" name="categoty" checked />All</label></div>
+        <div class="radio-block"> <label><input type="radio" name="categoty"/>Action</label></div>
+        <div class="radio-block"> <label><input type="radio" name="categoty"/>Adventure</label></div>
+        <div class="radio-block"> <label><input type="radio" name="categoty"/>Racing</label></div>
+        <div class="radio-block"> <label><input type="radio" name="categoty"/>Arcade</label></div>
+        <div class="radio-block"> <label><input type="radio" name="categoty"/>Sports</label></div> 
+    </fieldset>
+
+    <section id="all-games">
+        @foreach (var item in Model)
+        {
+            <section class="game-container">
+                <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                 
+                <h2> @item.gameName</h2>
+                 
+            </section>
+        }
+    </section>
+   
+</div> 
+@section styles{ 
+    <link rel="stylesheet" href="~/Content/Home.css" type="text/css" />
+}

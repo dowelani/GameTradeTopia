@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body style="background-image:url('/Images/gamerBackround.jfif');">
+    <h1 style="color: rgba(129, 21, 141, 1);">Game Trade Topia</h1>
+    <div class="Navigation">
+        <a href="@Url.Action("Home","Admin")">
+            <span class="item">Home</span>
+        </a>
+        <a href="@Url.Action("Statistics","Admin")">
+            <span class="item">Trade Statistics</span>
+        </a>
+        <a href="@Url.Action("ViewTraders","Admin")">
+            <span class="item">Traders</span>
+        </a>
+        <a href="@Url.Action("ApproveRegistration","Admin")">
+            <span class="item">Registration</span>
+        </a>
+        <a href="@Url.Action("Blacklist","Admin")">
+            <span class="item">Blacklist</span>
+        </a>
+
+        <div class="NavigationRight">
+            @using (Html.BeginForm("Home", "Admin", FormMethod.Get))
+            {
+                <div class="search-container">
+                    <div style="float:left ;padding-top:20px;">
+                        @Html.TextBox("text", null, new { id = "searchBox", placeholder = "Search", style = "height: 32px;" })
+                        <input class="btn" id="submit-btn" type="submit" value="&#128269" />
+                    </div>
+                    <a href="@Url.Action("Index","Login")" style="float:right;padding-top:20px;">
+                        <span class="item">Logout</span>
+                    </a>
+                    <img src="~/images/user.png" alt="Avator" style="padding-top: 20px; border-radius: 50%; width: 55px; height: 55px;  " />
+                </div>
+            }
+
+
+        </div>
+    </div>
+    <div class="con">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

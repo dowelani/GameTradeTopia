@@ -1,0 +1,163 @@
+﻿@model GameTradeTopia.Models.Trader
+
+@{
+    ViewBag.Title = "profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="body-container">
+
+    <h2>My profile details</h2>
+    <div id="content">
+        <div id="profile-container">
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    TraderID
+                </dt>
+
+                <dd class="field-description">
+                    @ViewBag.id
+                </dd>
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.firstName)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.firstName)
+                </dd>
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.lastName)
+                </dt>
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.lastName)
+                </dd>
+
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.emailAddress)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.emailAddress)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.username)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.username)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.phoneNumber)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.phoneNumber)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.traderDOB)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.traderDOB)
+                </dd>
+            </div>
+
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.country)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.country)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.streetAddress)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.streetAddress)
+                </dd>
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.registrationDate)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.registrationDate)
+                </dd>
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.registrationDate)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.registrationDate)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.registrationDate)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.registrationDate)
+                </dd>
+            </div>
+            <div class="field-container">
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.registrationDate)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.registrationDate)
+                </dd>
+            </div>
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.registrationDate)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.registrationDate)
+                </dd>
+            </div>
+        </div>
+        <div id="profile-options">
+            <a href="@Url.Action("viewRegistrationFeedback", "Trader")">
+                Registration Feedback
+            </a><a href="@Url.Action("profile", "Trader")">
+                Appeal Registration
+            </a><a href="@Url.Action("profile", "Trader")">
+                Generate Trade Statistics
+            </a>
+        </div>
+    </div>
+</div>
+@section styles{
+    <link rel="stylesheet" href="~/Content/profile.css" type="text/css" />
+}
