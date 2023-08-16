@@ -77,6 +77,9 @@ namespace GameTradeTopia.Controllers
                 newItem.idCopy = new byte[idCop.ContentLength];
                 idCop.InputStream.Read(newItem.idCopy, 0, idCop.ContentLength);
             }
+            newItem.blacklisted = "no";
+            newItem.approved = "no";
+            newItem.registrationDate = DateTime.Today.Date.ToString();
             model.Traders.Add(newItem);
             model.SaveChanges();
             ModelState.Clear();

@@ -19,7 +19,7 @@
         {
             <div style="display: flex; flex-direction: row; padding-top: 20px;justify-content:space-between;width:50% ">
                 <img src="~/images/user.png" alt="Avator" style=" border-radius: 50%; width: 55px; height: 55px; " />
-                <span style="padding-top: 18px; font-size: large; color: rgba(129, 21, 141, 1);">@item.username</span>
+                <span style="padding-top: 18px; font-size: large; color: rgba(129, 21, 141, 1); width:300px">@item.username</span>
                 <a href="@Url.Action("approve", "Admin", new {id=item.traderID})">
                 <input type="button" value="Approve Registration" style="border-radius: 45px; background: rgba(61, 247, 6, 1); color: rgba(129, 21, 141, 1); height: 55px;align-self: " />
                   </a>
