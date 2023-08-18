@@ -42,7 +42,8 @@ namespace GameTradeTopia.Controllers
                                     where traderRating.traderID.Equals(id)
                                     select traderRating).SingleOrDefault();
             traderRating1.numOfRaters = traderRating1.numOfRaters + 1;
-            traderRating1.traderStars = (traderRating1.traderStars+r)/ traderRating1.numOfRaters;
+            traderRating1.sumOfRates = traderRating1.sumOfRates + r;
+            traderRating1.traderStars = (traderRating1.sumOfRates)/ traderRating1.numOfRaters;
 
             model.Entry(traderRating1).State = System.Data.Entity.EntityState.Modified;
             model.SaveChanges();
@@ -77,6 +78,8 @@ namespace GameTradeTopia.Controllers
                 newItem.idCopy = new byte[idCop.ContentLength];
                 idCop.InputStream.Read(newItem.idCopy, 0, idCop.ContentLength);
             }
+            newItem.appealFeedback = "none";
+            newItem.adminComments = "none";
             newItem.blacklisted = "no";
             newItem.approved = "no";
             newItem.registrationDate = DateTime.Today.Date.ToString();

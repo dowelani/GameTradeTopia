@@ -19,6 +19,8 @@ namespace GameTradeTopia.Models
 
         public int numOfRaters { get; set; }
 
+        public int sumOfRates { get; set; }
+
         public virtual Trader Trader { get; set; }
     }
 }
