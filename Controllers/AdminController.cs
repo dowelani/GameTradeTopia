@@ -39,10 +39,44 @@ namespace GameTradeTopia.Controllers
             return RedirectToAction("ApproveRegistration");
         }
        
-        public ActionResult Blacklist()
+        public ActionResult Blacklist(int? id)
         {
-            ViewData["rating"] = model.traderRatings.ToList();
-            ViewData["trader"] = model.Traders.ToList();
+            if (id == 1)
+            {
+                List<traderRating> list=model.traderRatings.Where(x=>x.traderStars<=3).ToList();
+                List<Trader> list2 = model.Traders.ToList();
+                List<Trader> list3=new List<Trader>();
+                foreach (traderRating traderRating in list)
+                {
+                    foreach (Trader trader in list2)
+                    {
+                        if (traderRating.traderID.Equals(trader.traderID)) { list3.Add(trader); }
+                    }
+                }
+                ViewData["trader"]=list3;
+            }
+            else if (id == 2)
+            {
+                List<traderRating> list = model.traderRatings.Where(x => x.traderStars <= 3).ToList();
+                List<Trader> list2 = model.Traders.ToList();
+                List<Trader> list3 = new List<Trader>();
+                foreach (traderRating traderRating in list)
+                {
+                    foreach (Trader trader in list2)
+                    {
+                        if (traderRating.traderID.Equals(trader.traderID)) { list3.Add(trader); }
+                    }
+                }
+                ViewData["trader"] = list3;
+            }
+            else if (id == 3)
+            {
+
+            }
+            else
+            {
+                ViewData["trader"] = model.Traders.ToList();
+            }
             return View();
         }
 
