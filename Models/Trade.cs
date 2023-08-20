@@ -25,6 +25,10 @@ namespace GameTradeTopia.Models
         [StringLength(50)]
         public string tradeFufilled { get; set; }
 
+        [Required]
+        [StringLength(50)]
+        public string Date { get; set; }
+
         public int traderID { get; set; }
 
         public int gameToTradeID { get; set; }

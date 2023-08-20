@@ -82,7 +82,8 @@ namespace GameTradeTopia.Controllers
             newItem.adminComments = "none";
             newItem.blacklisted = "no";
             newItem.approved = "no";
-            newItem.registrationDate = DateTime.Today.Date.ToString();
+            string[] date = DateTime.Today.Date.ToString().Split(' ');
+            newItem.registrationDate = date[0];
             model.Traders.Add(newItem);
             model.SaveChanges();
             ModelState.Clear();

@@ -25,10 +25,6 @@
     </a>
     <label for="five" style="font-size: medium; color: rgba(129, 21, 141, 1)">5-day limit exceeders</label>
 
-    <a href="@Url.Action("Blacklist", "Admin", new {id=3})">
-        <input type="radio" name="filter" id="other" />
-        </a>
-        <label for="other" style="font-size:medium; color: rgba(129, 21, 141, 1)">Other Trade Policy Violators</label>
 </div>
     <div>
         @foreach (var item in trader)
