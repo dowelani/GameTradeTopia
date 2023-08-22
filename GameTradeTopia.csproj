@@ -205,7 +205,6 @@
     <Content Include="Views\Shared\Login.cshtml" />
     <Content Include="Views\Trader\register.cshtml" />
     <Content Include="Views\Trader\Rate.cshtml" />
-    <Content Include="Views\Admin\Blacklist3.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Trader\profile.cshtml" />
     <Content Include="Views\Trader\_viewRegistrationFeedback.cshtml" />

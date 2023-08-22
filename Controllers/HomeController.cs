@@ -11,10 +11,33 @@ namespace GameTradeTopia.Controllers
     {
         private Models.GameTradeTopia model = new Models.GameTradeTopia();
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Index(int? id)
         {
-            
-            List<Game> games = model.Games.ToList(); 
+            List<Game> games=null;
+            if (id == 1)
+            {
+                games = model.Games.Where(x=>x.gameType.Equals("Action")).ToList();
+            }
+            else if (id == 2)
+            {
+                games = model.Games.Where(x => x.gameType.Equals("Adventure")).ToList();
+            }
+            else if (id == 3)
+            {
+                games = model.Games.Where(x => x.gameType.Equals("Racing")).ToList();
+            }
+            else if (id == 4)
+            {
+                games = model.Games.Where(x => x.gameType.Equals("Arcade")).ToList();
+            }
+            else if (id == 5)
+            {
+                games = model.Games.Where(x => x.gameType.Equals("Sports")).ToList();
+            }
+            else
+            {
+                 games = model.Games.ToList();
+            }
             return View(games);
         }
 
