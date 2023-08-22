@@ -33,7 +33,7 @@ namespace GameTradeTopia.Controllers
             Trader trader = (from Trader in model.Traders
                                           where Trader.traderID.Equals(id)
                                           select Trader).SingleOrDefault();
-            trader.approved  = "no";
+            trader.approved  = "declined";
             model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
             model.SaveChanges();
             return RedirectToAction("ApproveRegistration");

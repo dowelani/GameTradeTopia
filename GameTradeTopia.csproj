@@ -208,6 +208,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Trader\profile.cshtml" />
     <Content Include="Views\Trader\_viewRegistrationFeedback.cshtml" />
+    <Content Include="Views\Shared\_Layout1.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
