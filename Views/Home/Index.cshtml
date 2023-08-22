@@ -3,40 +3,65 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    int c = 0;
 }
  
 <div id="home-body">
 
     <fieldset id="game-category">
         <legend>Category</legend>
-        <a href="@Url.Action("Index", "Home", new {id=0})">
+        <a href="@Url.Action("Index", "Home", new { id = 0 })">
             <div class="radio-block" onclick=""> <label><input type="radio" name="categoty" />All</label></div>
         </a>
-        <a href="@Url.Action("Index", "Home", new {id=1})">
+        <a href="@Url.Action("Index", "Home", new { id = 1 })">
             <div class="radio-block"> <label><input type="radio" name="categoty" />Action</label></div>
         </a>
-        <a href="@Url.Action("Index", "Home", new {id=2})">
+        <a href="@Url.Action("Index", "Home", new { id = 2 })">
             <div class="radio-block"> <label><input type="radio" name="categoty" />Adventure</label></div>
         </a>
-        <a href="@Url.Action("Index", "Home", new {id=3})">
+        <a href="@Url.Action("Index", "Home", new { id = 3 })">
             <div class="radio-block"> <label><input type="radio" name="categoty" />Racing</label></div>
         </a>
-        <a href="@Url.Action("Index", "Home", new {id=4})">
+        <a href="@Url.Action("Index", "Home", new { id = 4 })">
             <div class="radio-block"> <label><input type="radio" name="categoty" />Arcade</label></div>
         </a>
-        <a href="@Url.Action("Index", "Home", new {id=5})">
+        <a href="@Url.Action("Index", "Home", new { id = 5 })">
             <div class="radio-block"> <label><input type="radio" name="categoty" />Sports</label></div>
         </a>
     </fieldset>
 
     <section id="all-games">
+       
         @foreach (var item in Model)
         {
             <section class="game-container">
-                <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
-                 
+                @if (c % 6 == 0)
+                {
+                    <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    c++;
+                }
+                else if (c == 1)
+                {
+                    <img src="~/Images/44.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    c++;
+                }
+                else if (c == 3)
+                {
+                    <img src="~/Images/download.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    c++;
+                }
+                else if (c % 5 == 0)
+                {
+                    <img src="~/Images/down.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    c++;
+                }
+                else {
+                  <img src="~/Images/images.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                    c++;
+                }
+                
                 <h2> @item.gameName</h2>
-                 
+
             </section>
         }
     </section>
