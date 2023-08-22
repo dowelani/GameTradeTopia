@@ -1,14 +1,18 @@
 ﻿@model GameTradeTopia.Models.Trader
-
-<div id="approved" >
-    
-    @{      if (Model.approved.Equals("no"))
+@{
+    ViewBag.Title = "_viewRegistrationFeedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="approved" style=" width: 100%; height: 900px; background-color: #E29EDA">
+    <div style="background-color: rgba(129, 21, 141, 1); position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding: 10px">
+        @{ if (Model.approved.Equals("no"))
             {
-             <h2 style="color:rgba(129, 21, 141, 1) ">Your registration is not approved!!</h2>
+                <h1 style="color: rgba(61, 247, 6, 1); text-align: center ">Your registration is not approved!!</h1>
             }
             else
             {
-             <h2 style="color:rgba(129, 21, 141, 1)">Registration approved</h2>
+                <h1 style="color: rgba(61, 247, 6, 1); text-align: center ">Registration approved</h1>
             }
-    }
+        }
+    </div>
 </div>
