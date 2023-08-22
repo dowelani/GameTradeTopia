@@ -55,21 +55,7 @@ namespace GameTradeTopia.Controllers
                 }
                 ViewData["trader"]=list3;
             }
-            else if (id == 2)
-            {
-                List<Trade> list = model.Trades.Where(x => ( DateTime.Parse(x.Date).CompareTo(DateTime.Now) < 0)).ToList();
-                List<Trader> list2 = model.Traders.ToList();
-                List<Trader> list3 = new List<Trader>();
-                foreach (Trade trade in list)
-                {
-                    foreach (Trader trader in list2)
-                    {
-                        if (trade.traderID.Equals(trader.traderID)) { list3.Add(trader); }
-                    }
-                }
-                ViewData["trader"] = list3;
-            }
-          
+           
             else
             {
                 ViewData["trader"] = model.Traders.ToList();
@@ -77,11 +63,7 @@ namespace GameTradeTopia.Controllers
             return View();
         }
 
-        public ActionResult Blacklist3()
-        {
-            ViewData["trader"] = model.Traders.ToList();
-            return View();
-        }
+      
 
         public ActionResult blacklisted(int id)
         {
@@ -94,7 +76,7 @@ namespace GameTradeTopia.Controllers
             return RedirectToAction("Blacklist");
         }
 
-        public ActionResult ViewTraders()
+        public ActionResult ViewTrader()
         {
             ViewData["trader"] = model.Traders.ToList();
             ViewData["rating"] = model.traderRatings.ToList();

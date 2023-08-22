@@ -198,7 +198,7 @@
     <Content Include="Views\Shared\adminLayout.cshtml" />
     <Content Include="Views\Admin\ApproveRegistration.cshtml" />
     <Content Include="Views\Admin\Blacklist.cshtml" />
-    <Content Include="Views\Admin\ViewTraders.cshtml" />
+    <Content Include="Views\Admin\ViewTrader.cshtml" />
     <Content Include="Views\Login\home.cshtml" />
     <Content Include="Views\Login\verifyUser.cshtml" />
     <Content Include="Views\Shared\Login_Layout.cshtml" />

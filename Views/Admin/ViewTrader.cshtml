@@ -1,0 +1,92 @@
+﻿
+
+
+@{
+    ViewBag.Title = "ViewTrader";
+    Layout = "~/Views/Shared/adminLayout.cshtml";
+}
+@{
+
+    IEnumerable<GameTradeTopia.Models.Trader> trader = ViewData["trader"] as IEnumerable<GameTradeTopia.Models.Trader>;
+    IEnumerable<GameTradeTopia.Models.traderRating> rating = ViewData["rating"] as IEnumerable<GameTradeTopia.Models.traderRating>;
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+}
+<div style="display: flex; flex-direction: row">
+    <div>
+        <img src="~/images/download.jpg" alt="need for speed" style="width:700px;height:800px"/>
+    </div>
+    <div>
+        @foreach (var item in trader)
+        {
+
+            <div style="display: flex; flex-direction: row; padding-top: 20px; justify-content: space-between; flex: 100%">
+                <img src="~/images/user.png" alt="Avator" style=" border-radius: 50%; width: 55px; height: 55px; " />
+                <p style=" padding-top: 18px; font-size: large; color: rgba(129, 21, 141, 1); ">@item.username</p>
+                <div style="padding-top: 18px;  ">
+                    @foreach (var item1 in rating)
+                    {
+                        if (item.traderID == item1.traderID)
+                        {
+                            if (item1.traderStars == 1)
+                            {
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+
+                            }
+                            else if (item1.traderStars == 2)
+                            {
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                            }
+                            else if (item1.traderStars == 3)
+                            {
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                            }
+                            else if (item1.traderStars == 4)
+                            {
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                            }
+                            else if (item1.traderStars == 5)
+                            {
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: yellow; font-size: large'></i>
+                            }
+                            else
+                            {
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+                                <i class='bx bxs-star' style='color: gray; font-size: large'></i>
+
+                            }
+                        }
+                    }
+                </div>
+                <a href="@Url.Action("Rate", "Trader", new {id=item.traderID})" >
+                    <input type="button" value="View Profile" style="border-radius: 45px;width:100px; background: rgba(61, 247, 6, 1); color: rgba(129, 21, 141, 1); height:55px " />
+                </a>
+                </div>
+                <hr />
+
+        }
+    </div>
+</div>
+
