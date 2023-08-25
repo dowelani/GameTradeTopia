@@ -216,6 +216,9 @@
     <Content Include="Views\Trader\_viewRegistrationFeedback.cshtml" />
     <Content Include="Views\Shared\_Layout1.cshtml" />
     <Content Include="Views\Trader\MaintainGameCatalogue.cshtml" />
+    <Content Include="Views\Admin\BlacklistedProfiles.cshtml" />
+    <Content Include="Views\Admin\BlacklistReport.cshtml" />
+    <Content Include="Views\Admin\deleteTrader.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

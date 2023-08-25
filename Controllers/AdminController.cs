@@ -17,35 +17,35 @@ namespace GameTradeTopia.Controllers
             ViewData["trader"] = model.Traders.ToList();
             return View();
         }
-       public ActionResult approve(int id)
+        public ActionResult approve(int id)
         {
             Trader trader = (from Trader in model.Traders
-                                          where Trader.traderID.Equals(id)
-                                          select Trader).SingleOrDefault();
-            trader.approved  = "yes";
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
+            trader.approved = "yes";
             model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
             model.SaveChanges();
             return RedirectToAction("ApproveRegistration");
         }
 
-         public ActionResult decline(int id)
+        public ActionResult decline(int id)
         {
             Trader trader = (from Trader in model.Traders
-                                          where Trader.traderID.Equals(id)
-                                          select Trader).SingleOrDefault();
-            trader.approved  = "declined";
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
+            trader.approved = "declined";
             model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
             model.SaveChanges();
             return RedirectToAction("ApproveRegistration");
         }
-       
+
         public ActionResult Blacklist(int? id)
         {
             if (id == 1)
             {
-                List<traderRating> list=model.traderRatings.Where(x=>x.traderStars<=3).ToList();
+                List<traderRating> list = model.traderRatings.Where(x => x.traderStars <= 3).ToList();
                 List<Trader> list2 = model.Traders.ToList();
-                List<Trader> list3=new List<Trader>();
+                List<Trader> list3 = new List<Trader>();
                 foreach (traderRating traderRating in list)
                 {
                     foreach (Trader trader in list2)
@@ -53,9 +53,9 @@ namespace GameTradeTopia.Controllers
                         if (traderRating.traderID.Equals(trader.traderID)) { list3.Add(trader); }
                     }
                 }
-                ViewData["trader"]=list3;
+                ViewData["trader"] = list3;
             }
-           
+
             else
             {
                 ViewData["trader"] = model.Traders.ToList();
@@ -63,96 +63,70 @@ namespace GameTradeTopia.Controllers
             return View();
         }
 
-      
+
 
         public ActionResult blacklisted(int id)
         {
             Trader trader = (from Trader in model.Traders
-                                          where Trader.traderID.Equals(id)
-                                          select Trader).SingleOrDefault();
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
             trader.blacklisted = "yes";
             model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
             model.SaveChanges();
             return RedirectToAction("Blacklist");
         }
 
+        public ActionResult BlacklistedProfiles()
+        {
+            List<Trader> traders = model.Traders.ToList();
+            return View(traders);
+        }
+        public ActionResult BlacklistReport()
+        {
+            List<Trader> traders = model.Traders.ToList();
+            return View(traders);
+        }
+
+        public ActionResult addProfile(int id)
+        {
+            Trader trader = (from Trader in model.Traders
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
+            trader.blacklisted = "yes";
+            model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
+            model.SaveChanges();
+            return RedirectToAction("BlacklistReport");
+        }
+        public ActionResult removeProfile(int id)
+        {
+            Trader trader = (from Trader in model.Traders
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
+            trader.blacklisted = "no";
+            model.Entry(trader).State = System.Data.Entity.EntityState.Modified;
+            model.SaveChanges();
+            return RedirectToAction("BlacklistReport");
+        }
         public ActionResult ViewTrader()
         {
             ViewData["trader"] = model.Traders.ToList();
             ViewData["rating"] = model.traderRatings.ToList();
             return View();
         }
-
-        // GET: Admin/Details/5
-        public ActionResult Details(int id)
+        public ActionResult deleteTrader()
         {
-            return View();
+            List<Trader> traders = model.Traders.ToList();
+            return View(traders);
         }
-
-        // GET: Admin/Create
-        public ActionResult Create()
+        public ActionResult delete(int id)
         {
-            return View();
-        }
+            Trader trader = (from Trader in model.Traders
+                             where Trader.traderID.Equals(id)
+                             select Trader).SingleOrDefault();
 
-        // POST: Admin/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Admin/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Admin/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Admin/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Admin/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            model.Traders.Remove(trader);
+            model.SaveChanges();
+            return RedirectToAction("deleteTrader");
         }
     }
 }

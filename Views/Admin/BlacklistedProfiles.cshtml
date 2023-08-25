@@ -1,0 +1,22 @@
+﻿@model IEnumerable<GameTradeTopia.Models.Trader>
+
+@{
+    ViewBag.Title = "BlacklistedProfiles";
+    Layout = "~/Views/Shared/adminLayout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    if (item.blacklisted.Equals("yes"))
+    {
+        <div style="display: flex; flex-direction: row; padding-top: 20px; justify-content: space-between; width: 50%">
+            <img src="~/images/user.png" alt="Avator" style=" border-radius: 50%; width: 55px; height: 55px; " />
+            <p style=" padding-top: 18px; font-size: large; color: rgba(129, 21, 141, 1); ">@item.username</p>
+            <a href="@Url.Action("Rate", "Trader", new {id=item.traderID})">
+                <input type="button" value="View Profile" style="border-radius: 45px;width:100px; background: rgba(61, 247, 6, 1); color: rgba(129, 21, 141, 1); height:55px " />
+            </a>
+        </div>
+    }
+}
+
+
