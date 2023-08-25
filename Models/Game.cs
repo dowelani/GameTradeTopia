@@ -35,6 +35,8 @@ namespace GameTradeTopia.Models
         [StringLength(50)]
         public string yearPublished { get; set; }
 
+        public byte[] image { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<GameReview> GameReviews { get; set; }
 

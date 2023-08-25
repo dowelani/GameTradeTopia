@@ -213,6 +213,7 @@
     <Content Include="Views\Trader\profile.cshtml" />
     <Content Include="Views\Trader\_viewRegistrationFeedback.cshtml" />
     <Content Include="Views\Shared\_Layout1.cshtml" />
+    <Content Include="Views\Trader\MaintainGameCatalogue.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

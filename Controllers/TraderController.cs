@@ -90,77 +90,28 @@ namespace GameTradeTopia.Controllers
             return RedirectToAction("register","Trader");
         }
 
-
-        // GET: Trader/Details/5
-        public ActionResult Details(int id)
+        public ActionResult MaintainGameCatalogue()
         {
+            ViewData["games"] = model.Games.ToList();
             return View();
         }
 
-        // GET: Trader/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Trader/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult MaintainGameCatalogue(Models.Game newItem, HttpPostedFileBase pic)
         {
-            try
+            if (pic != null)
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                newItem.image = new byte[pic.ContentLength];
+                pic.InputStream.Read(newItem.image, 0, pic.ContentLength);
             }
-            catch
-            {
-                return View();
-            }
+           
+            model.Games.Add(newItem);
+            model.SaveChanges();
+            ModelState.Clear();
+            return RedirectToAction("MaintainGameCatalogue", "Trader");
         }
 
-        // GET: Trader/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
 
-        // POST: Trader/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Trader/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Trader/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }
