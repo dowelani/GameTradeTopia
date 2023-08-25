@@ -17,25 +17,30 @@ namespace GameTradeTopia.Models
             Trades = new HashSet<Trade>();
             traderRatings = new HashSet<traderRating>();
         }
-
+        [Display(Name ="TraderID")]
         public int traderID { get; set; }
 
         [Required]
+        [Display(Name = "First Name")]
         [StringLength(50)]
         public string firstName { get; set; }
 
         [Required]
+        [Display(Name = "Last Name")]
         [StringLength(50)]
         public string lastName { get; set; }
 
         [Required]
+        [Display(Name = "User Name")]
         [StringLength(50)]
         public string username { get; set; }
 
         [Required]
+        [Display(Name = "Email")]
         [StringLength(50)]
         public string emailAddress { get; set; }
 
+        [Display(Name = "Date Of Birth")]
         [Column(TypeName = "date")]
         public DateTime traderDOB { get; set; }
 
@@ -50,10 +55,12 @@ namespace GameTradeTopia.Models
         public string approved { get; set; }
 
         [Required]
+        [Display(Name = "Country")]
         [StringLength(50)]
         public string country { get; set; }
 
         [Required]
+        [Display(Name = "City")]
         [StringLength(50)]
         public string city { get; set; }
 
@@ -62,10 +69,12 @@ namespace GameTradeTopia.Models
         public string suburb { get; set; }
 
         [Required]
+        [Display(Name = "Surbub")]
         [StringLength(50)]
         public string streetAddress { get; set; }
 
         [Required]
+        [Display(Name = "Phone Number")]
         [StringLength(20)]
         public string phoneNumber { get; set; }
 
@@ -74,6 +83,7 @@ namespace GameTradeTopia.Models
         public string adminComments { get; set; }
 
         [StringLength(50)]
+        [Display(Name = "Registration Date")]
         public string registrationDate { get; set; }
 
         public byte[] idCopy { get; set; }

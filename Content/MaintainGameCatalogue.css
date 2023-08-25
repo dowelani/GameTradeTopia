@@ -1,0 +1,90 @@
+
+p{
+    align-self:center;
+    font-size:1em;
+    color: rebeccapurple;
+}
+h2{
+    align-self:center;
+    color:rebeccapurple;
+}
+.body-container{
+    padding:3em; 
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    justify-content:space-between;
+}
+#all-games{
+    display:flex;
+    flex-wrap:wrap; 
+    gap:1em;  
+}
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:0.4em;
+}
+.game-container>*{
+    flex-shrink:1;
+    flex-basis:10;
+}
+.game-container-left {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.4em;
+}
+ 
+.game-container img {
+    min-width:4em; 
+    max-width:8.5em;
+    aspect-ratio: 3/5;
+}
+.game-container-right { 
+    align-items:center;
+    justify-content:flex-start;
+    text-align:start;
+    gap: 0.4em;
+}
+.game-container-right>*{
+    display:block;
+}
+.game-details{
+    display:flex;
+    flex-direction:column;
+    text-align:start;
+}
+.form-container {
+    display:flex;
+    flex-direction:column;
+    gap:0.6em;
+    background-color:#e6bdf7;
+    border-radius:1.5em;
+    padding:1em;
+}
+#form-editor{ 
+    columns:13em 2;
+    column-gap:1.2em;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}  
+.btn {
+    display:flex;
+    justify-content:center;
+    align-self: center;
+    padding: 0.5em 1em; 
+    min-width:70%;
+    border-radius:2em;
+    background-color:lime;
+    color:rebeccapurple;
+    font-weight:600;
+    font-size:0.9em;
+}
+.btn img{  
+    width:1em;
+    aspect-ratio:2;
+}

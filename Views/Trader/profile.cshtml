@@ -101,11 +101,22 @@
             </div>
             <div class="field-container">
                 <dt class="profile-field">
-                    @Html.DisplayNameFor(model => model.registrationDate)
+                    @Html.DisplayNameFor(model => model.city)
                 </dt>
 
                 <dd class="field-description">
-                    @Html.DisplayFor(model => model.registrationDate)
+                    @Html.DisplayFor(model => model.city)
+                </dd>
+            </div>
+           
+            <div class="field-container">
+
+                <dt class="profile-field">
+                    @Html.DisplayNameFor(model => model.suburb)
+                </dt>
+
+                <dd class="field-description">
+                    @Html.DisplayFor(model => model.suburb)
                 </dd>
             </div>
             <div class="field-container">
@@ -117,35 +128,7 @@
                     @Html.DisplayFor(model => model.registrationDate)
                 </dd>
             </div>
-            <div class="field-container">
-
-                <dt class="profile-field">
-                    @Html.DisplayNameFor(model => model.registrationDate)
-                </dt>
-
-                <dd class="field-description">
-                    @Html.DisplayFor(model => model.registrationDate)
-                </dd>
-            </div>
-            <div class="field-container">
-                <dt class="profile-field">
-                    @Html.DisplayNameFor(model => model.registrationDate)
-                </dt>
-
-                <dd class="field-description">
-                    @Html.DisplayFor(model => model.registrationDate)
-                </dd>
-            </div>
-            <div class="field-container">
-
-                <dt class="profile-field">
-                    @Html.DisplayNameFor(model => model.registrationDate)
-                </dt>
-
-                <dd class="field-description">
-                    @Html.DisplayFor(model => model.registrationDate)
-                </dd>
-            </div>
+             
         </div>
         <div id="profile-options">
             <a href="@Url.Action("viewRegistrationFeedback", "Trader")">
