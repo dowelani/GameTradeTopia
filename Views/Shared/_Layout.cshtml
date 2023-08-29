@@ -37,11 +37,13 @@
                         @Html.TextBox("text", null, new { id = "searchBox", placeholder = "Search", style = "height: 32px;" })
                         <input class="btn" id="submit-btn" type="submit" value="&#128269" />
                     </div>
-                    <a href="@Url.Action("Index","Login")" style="float:right;padding-top:20px;">
+                    <a href="@Url.Action("home","Login")" style="float:right;padding-top:20px;">
                         <span class="item">Logout</span>
                     </a>
-                    <img src="~/images/user.png" alt="Avator" style="padding-top: 20px; border-radius: 50%; width: 55px; height: 55px;  " />
-                </div>
+                    <a href="@Url.Action("profile","Trader")">
+                        <img src="~/images/user.png" alt="Avator" style="padding-top: 20px; border-radius: 50%; width: 55px; height: 55px;  " />
+                    </a>
+                    </div>
             }
 
 

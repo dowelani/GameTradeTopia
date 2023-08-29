@@ -219,6 +219,10 @@
     <Content Include="Views\Admin\BlacklistedProfiles.cshtml" />
     <Content Include="Views\Admin\BlacklistReport.cshtml" />
     <Content Include="Views\Admin\deleteTrader.cshtml" />
+    <Content Include="Views\Trader\RequestTrade.cshtml" />
+    <Content Include="Views\Trader\AcceptTradeRequest.cshtml" />
+    <Content Include="Views\Trader\SearchGame.cshtml" />
+    <Content Include="Views\Trader\AppealRegistration.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

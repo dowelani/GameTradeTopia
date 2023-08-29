@@ -112,7 +112,22 @@ namespace GameTradeTopia.Controllers
             return RedirectToAction("MaintainGameCatalogue", "Trader");
         }
 
-
+        public ActionResult RequestTrade()
+        { 
+            return View();
+        }
+        public ActionResult AcceptTradeRequest()
+        {
+            return View();
+        }
+        public ActionResult SearchGame()
+        {
+            return View(); //check code to search on adm
+        }
+        public ActionResult AppealRegistration()
+        {
+            return View();
+        }
 
     }
 }

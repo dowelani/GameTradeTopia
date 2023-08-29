@@ -117,7 +117,7 @@
                 {
                     foreach (var item2 in trader)
                     {
-                        if (item.gameID == item1.gameID && item2.traderID == id) { 
+                        if (item.gameID == item1.gameID && item2.traderID == id&&item1.traderID==item2.traderID) { 
                           <section class="game-container" style="display:flex;flex-direction:row">
                           <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
                           <div style="display:flex;flex-direction:column">
