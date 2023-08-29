@@ -107,12 +107,28 @@ namespace GameTradeTopia.Controllers
             model.SaveChanges();
             return RedirectToAction("BlacklistReport");
         }
-        public ActionResult ViewTrader()
+ 
+        public ActionResult ViewTrader(int? w,string word)
         {
-            ViewData["trader"] = model.Traders.ToList();
-            ViewData["rating"] = model.traderRatings.ToList();
+            if (w==null)
+            {
+                ViewData["trader"] = model.Traders.ToList();
+                ViewData["rating"] = model.traderRatings.ToList();
+            }
+            else
+            {
+                ViewData["trader"] = model.Traders.Where(x=>x.username.Contains(word)).ToList();
+                ViewData["rating"] = model.traderRatings.ToList();
+            }
             return View();
         }
+
+        [HttpPost]
+        public ActionResult viewTrader()
+        {
+            return ViewTrader(1,Request.Form["word"].ToString());
+        }
+
         public ActionResult deleteTrader()
         {
             List<Trader> traders = model.Traders.ToList();

@@ -7,6 +7,7 @@
 
     IEnumerable<GameTradeTopia.Models.Trader> trader = ViewData["trader"] as IEnumerable<GameTradeTopia.Models.Trader>;
     IEnumerable<GameTradeTopia.Models.traderRating> rating = ViewData["rating"] as IEnumerable<GameTradeTopia.Models.traderRating>;
+    IEnumerable<GameTradeTopia.Models.gameToTrade> gameToTrade = ViewData["gameToTrade"] as IEnumerable<GameTradeTopia.Models.gameToTrade>;
     int id = (int)ViewData["dataID"];
     if (TempData["id"] != null)
     {
@@ -112,17 +113,24 @@
         <section id="all-games">
             @foreach (var item in Model)
             {
-               
-                <section class="game-container" style="display:flex;flex-direction:row">
-                    <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
-                    <div style="display:flex;flex-direction:column">
-                        <h2>Name  :@item.gameName</h2>
-                        <h2>Theme :@item.gameType</h2>
-                        <h2>Year Published  :@item.yearPublished</h2>
-                        <h2>GameID :@item.gameID</h2>
+                foreach (var item1 in gameToTrade)
+                {
+                    foreach (var item2 in trader)
+                    {
+                        if (item.gameID == item1.gameID && item2.traderID == id) { 
+                          <section class="game-container" style="display:flex;flex-direction:row">
+                          <img src="~/Images/game.jpg" alt="@item.gameName.ToString()" class="game-image" />
+                          <div style="display:flex;flex-direction:column">
+                          <h2>Name  :@item.gameName</h2>
+                          <h2>Theme :@item.gameType</h2>
+                          <h2>Year Published  :@item.yearPublished</h2>
+                          <h2>GameID :@item.gameID</h2>
                         
-                    </div>
-                </section>
+                          </div>
+                          </section>
+                        }
+                    }
+                }
             }
         </section>
 

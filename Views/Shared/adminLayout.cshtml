@@ -29,11 +29,11 @@
         </a>
 
         <div class="NavigationRight">
-            @using (Html.BeginForm("Home", "Admin", FormMethod.Get))
+            @using (Html.BeginForm("viewTrader", "Admin", FormMethod.Post))
             {
                 <div class="search-container">
                     <div style="float:left ;padding-top:20px;">
-                        @Html.TextBox("text", null, new { id = "searchBox", placeholder = "Search", style = "height: 32px;" })
+                        <input placeholder = "Search" style = "height: 32px;" name="word" type="text" id="word" />
                         <input class="btn" id="submit-btn" type="submit" value="&#128269" />
                     </div>
                     <a href="@Url.Action("Index","Login")" style="float:right;padding-top:20px;">

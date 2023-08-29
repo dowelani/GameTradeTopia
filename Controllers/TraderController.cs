@@ -11,8 +11,8 @@ namespace GameTradeTopia.Controllers
 {
     public class TraderController : Controller
     {
-        private Models.Model1 model = new Models.Model1();
-        GameTradeTopia.Models.Trader curTrader = null;
+        private Models.GameTradeTopia model = new Models.GameTradeTopia();
+        Trader curTrader = null;
         // GET: Trader
         public ActionResult TraderRatings()
         {
@@ -24,6 +24,7 @@ namespace GameTradeTopia.Controllers
         {
             ViewData["trader"] = model.Traders.ToList();
             ViewData["rating"] = model.traderRatings.ToList();
+            ViewData["gameToTrade"]=model.gameToTrades.ToList();
             if (ViewData["dataID"] != null)
             {
                 ViewData.Remove("dataID");
